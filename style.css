@@ -45,6 +45,12 @@ img{
      left:8%;
     }
 }
+
+@media screen and (max-width: 420px) {
+    .card{
+        left: 10%;
+    }
+}
 .card:hover{
     transform: rotateY(180deg);
 }
@@ -61,6 +67,12 @@ img{
     right: 0%;
     margin: 0% 8%;
     padding-bottom: 10%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .block{
+        margin: 0 10%;
     }
 }
 .outside,.inside{
